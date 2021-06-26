@@ -1,0 +1,12 @@
+{
+  "name": "aws-lambda-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dongsheng Cai <d@tux.im> (http://dongsheng.org/)",
+  "license": "BSD-2-Clause"
+}
