@@ -56,7 +56,7 @@ jobs:
 
       # - name: create lambda function
       #   run: aws lambda create-function --function-name friendlyrobot-test-api --zip-file fileb://code.zip --handler index.handler --runtime nodejs14.x --role  arn:aws:iam::366645423398:role/service-role/admin
-      - run: zip code.zip index.js node_modules
+      - run: zip -r code.zip index.js node_modules
 
       - name: update lambda function
         run: aws lambda update-function-code --function-name friendlyrobot-test-api --zip-file fileb://code.zip
